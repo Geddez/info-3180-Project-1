@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block main %}
+  <ul class="gallery">
+    {% for image in images %}
+      <li class="gallery-item">
+        <img class="gallery-img" src="{{ url_for('static', filename=image) }}" alt="">
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}
