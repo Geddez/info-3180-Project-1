@@ -11,7 +11,7 @@ SECRET_KEY = 'Justkey'
 # SQLALCHEMY_DATABASE_URI = 'postgresql://{0}:{1}@{2}/{3}' \
 #                             .format(USERNAME, PASSWORD,
 #                                     HOST, DATABASE_NAME)
-DATABASE_URL=''
+DATABASE_URL='postgres://zrsiqgodqaizcr:29909dbba19592c2364823fdc0222bd462a1e27a22a13192536787a558e4b9c5@ec2-54-83-61-142.compute-1.amazonaws.com:5432/deae62e65k27ps'
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = SECRET_KEY
